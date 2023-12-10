@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 unidad1 = input("Ingresar unidad actual  mm, cm, m, hm, km: ")
 unidad2 = input("Ingresar unidad requerida mm, cm, m, hm, km: ")
 print("Conversion")
@@ -42,3 +43,12 @@ print(f"{valor} {unidad1} son {cantidad_convertida} {unidad1}")
 
 
 
+=======
+#Menus
+
+
+#Unidades
+
+
+#Reservacion de Hotel
+>>>>>>> 342ff7591474f1da83a277cefe50d7207bc5d2f2
