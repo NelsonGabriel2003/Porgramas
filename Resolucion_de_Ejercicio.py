@@ -1,6 +1,33 @@
 
 #Menus
-
+print("""Bienvenido a mi restaurante
+                   El menu es:""")
+print("""1.Opcion Hamburguesas
+2.Opcion pollo 
+3.Opcion Postres""")
+menu=input("Que opcion desearia:  ")
+match menu:
+    case "1" :   
+            print("""
+                  1.1 Simples
+                  1.2 Dobles
+                  1.3 Doble Con Tocino""")
+            menu=input("Que opcion de hamburguesa desearia: ")
+            opcion_1=float(menu)
+    case "2" :
+        print("""
+                  2.1 1/4
+                  2.2 1/8
+                  2.3 1/2
+                  2.4 familiar""")
+        menu=input("Que opcion de hamburguesa desearia: ")
+        opcion_2=float(menu)
+    case "3" :
+        print("""
+                3.1 3 Leches
+                1.2 Brownie""")
+        menu=input("Que opcion de postre desearia: ")
+        opcion_1=float(menu)
 
 #Unidades
 print("Ejercicio de Unidades")
